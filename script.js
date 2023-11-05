@@ -3,6 +3,7 @@ const tipInput = document.getElementById("tipInput");
 const numberOfPeople = document.getElementById("numberOfPeople");
 const perPersonTotal = document.getElementById("perPersonTotal");
 
+
 let numberOfPpl = +numberOfPeople.textContent;
 
 const calculateBill = () => {
